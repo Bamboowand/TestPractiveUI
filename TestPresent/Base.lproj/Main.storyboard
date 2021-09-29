@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="359" y="-350"/>
         </scene>
-        <!--Test View Controller-->
+        <!--TestUI Stack View Controller-->
         <scene sceneID="lBE-TT-ZJE">
             <objects>
-                <viewController id="26T-s0-Ni7" customClass="TestViewController" sceneMemberID="viewController">
+                <viewController id="26T-s0-Ni7" customClass="TestUIStackViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lY7-8F-mkV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -21,6 +21,7 @@
 		EF33441727020CBB00DD3874 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF33441627020CBB00DD3874 /* ScrollViewController.m */; };
 		EF33441B27034B0A00DD3874 /* JXPageVIewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF33441A27034B0A00DD3874 /* JXPageVIewViewController.m */; };
 		EF33441E2703517800DD3874 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF33441D2703517800DD3874 /* TestViewController.m */; };
+		EF3344212704B8E200DD3874 /* TestUIStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3344202704B8E200DD3874 /* TestUIStackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		EF33441A27034B0A00DD3874 /* JXPageVIewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXPageVIewViewController.m; sourceTree = "<group>"; };
 		EF33441C2703517800DD3874 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		EF33441D2703517800DD3874 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		EF33441F2704B8E200DD3874 /* TestUIStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUIStackViewController.h; sourceTree = "<group>"; };
+		EF3344202704B8E200DD3874 /* TestUIStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIStackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				EF33441A27034B0A00DD3874 /* JXPageVIewViewController.m */,
 				EF33441C2703517800DD3874 /* TestViewController.h */,
 				EF33441D2703517800DD3874 /* TestViewController.m */,
+				EF33441F2704B8E200DD3874 /* TestUIStackViewController.h */,
+				EF3344202704B8E200DD3874 /* TestUIStackViewController.m */,
 			);
 			path = TestJXategory;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				EF33440F26F0E93C00DD3874 /* PresentBottomVC.m in Sources */,
 				EF3344132701F9F300DD3874 /* MenuViewController.m in Sources */,
 				EF33440426F0E26200DD3874 /* main.m in Sources */,
+				EF3344212704B8E200DD3874 /* TestUIStackViewController.m in Sources */,
 				EF3343F626F0E26000DD3874 /* SceneDelegate.m in Sources */,
 				EF33441727020CBB00DD3874 /* ScrollViewController.m in Sources */,
 			);

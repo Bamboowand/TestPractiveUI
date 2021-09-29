@@ -57,6 +57,7 @@
         _testTableView.delegate = self;
         [_testTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
         [_testTableView setBounces:NO];
+        [_testTableView setBackgroundColor:[UIColor grayColor]];
     }
     return _testTableView;
 }
@@ -91,6 +92,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     cell.textLabel.text = [NSString stringWithFormat:@"YAYAY_%ld", indexPath.row];
+    [cell setBackgroundColor:[UIColor greenColor]];
     return cell;
 }
 
